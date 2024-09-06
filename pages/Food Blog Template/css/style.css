@@ -1,0 +1,48 @@
+body{
+    font-family: "Karma", sans-serif;
+}
+.btn-outline-danger{
+    color:black;
+    background-color: white;
+    border: none;
+
+}
+.btn-outline-danger:hover,.btn-outline-danger:active{
+    color:black ;
+    border: none ;
+    background-color: #ccc ;
+}
+.btn{
+    border: none;
+}
+.active:hover{
+    background-color: gray;
+}
+.nav-link{
+    font-size: 24px;
+    cursor: pointer;
+    padding: 20px;
+}
+.offcanvas :hover{
+    background-color: #ccc ;
+    color:black 
+}
+#ho :hover{
+    background-color: #ccc ;
+
+}
+
+.post-link {
+    display: flex; 
+    align-items: center;
+    transition: background-color 400ms ease; 
+    padding: 16px; 
+}
+.post-link:hover {
+    background-color: #ccc; 
+    text-decoration: none; 
+}
+.f-hover:hover{
+    color: aqua !important;
+    cursor: pointer;
+}

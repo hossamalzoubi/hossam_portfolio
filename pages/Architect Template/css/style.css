@@ -1,0 +1,51 @@
+:root{
+    --mainFont: "Segoe UI",Arial,sans-serif;
+    --secondaryFont: Verdana,sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: var(--mainFont);
+}
+hr{
+    border:1px solid #ccc
+}
+.card{
+    border: 0;
+}
+.card img{
+    filter: grayscale(100%);
+}
+p{
+    font-size: var(--secondaryFont);
+}
+.custom-input:focus {
+ border: 2px solid black;
+  box-shadow: none;
+}
+ .f-hover:hover{
+    color: rgb(0, 255, 0) !important;
+    cursor: pointer;
+ }
+.link-hover:hover{
+    background-color: #ccc;
+    color:black !important
+}
+.navbar-brand{
+    padding:8px 16px;
+    cursor: pointer;
+}
+.fs-nav{
+    font-size: 15px;
+    font-weight: 500;
+}
+hr{
+    border: 1px solid #eee
+}
+.btn-dark {
+    --bs-btn-hover-color: black !important;
+    --bs-btn-hover-bg: #ccc !important;
+    --bs-btn-hover-border-color: #ccc !important;
+}
+.message-error{
+    color:red;
+}
+

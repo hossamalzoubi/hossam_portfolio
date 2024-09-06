@@ -1,0 +1,44 @@
+:root{
+    --mainFont:"Playfair Display";
+    --secondaryFont: "Times New Roman", Georgia, Serif; 
+    --maxWidth:1100px;
+}
+P{
+    font-family: var(--secondaryFont);
+}
+input[type="text"],input[type="number"],input[type="datetime-local"]{
+    font-family: var(--secondaryFont);
+    font-size: 15px;
+}
+.custom-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.custom-input:focus {
+ border: 2px solid black;
+ box-shadow: none;
+}
+
+.link-hover:hover{
+    background-color: #ccc;
+    color:black !important
+}
+.fs-nav{
+    font-size: 15px;
+    font-weight: 500;
+}
+hr{
+    border: 1px solid #eee
+}
+.navbar-brand{
+    padding:8px 16px;
+}
+.custom-link:hover{
+    color: #607d8b !important;
+}

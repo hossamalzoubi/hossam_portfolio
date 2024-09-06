@@ -1,0 +1,73 @@
+:root{
+    --mainFont: "Oswald", sans-serif;
+    --secondaryFont: "Open Sans", system-ui;
+}
+body{
+    font-family: var(--secondaryFont);
+    background-color: #f1f1f1;
+}
+.navbar{
+    --bs-navbar-padding-y: -0.5rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--mainFont);
+}
+.parallax-bg1{
+    background-image: url(images/jane.jpg);
+    background-size: 100% 500px;
+}
+.pIcon{
+    padding: 8px 16px;
+    color:white;
+}
+div a:hover{
+    color:black;
+    background-color: #ccc;
+}
+.btn-outline-dark,.btn-dark{
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #ccc;
+    --bs-btn-hover-border-color: #ccc;
+    border-radius: 0;
+}
+.list-unstyled li:hover{
+    background-color: #ccc;
+}
+.custom-input{
+    border-radius: 0;
+    box-shadow: none;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+.custom-input:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
+.f-hover:hover{
+    color: aqua !important;
+    cursor: pointer;
+}
+.f-bg{
+    background-color: #616161;
+}
+.f-btn-bg{
+    color:white;
+    background-color: black;
+    border: none;
+}
+.f-btn-bg:hover{
+    color: black;
+    background-color: #ccc;
+    border: none;
+}
+.badge{
+    border-radius: 0;
+}
+.btn-subscribe:hover{
+    color:black ;
+    background-color:  #ccc ;
+}
+.btn:hover{
+    color: black !important; 
+    background-color: #ccc !important;
+}

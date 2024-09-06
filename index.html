@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        
+    </style>
+</head>
+<body class="px-3">
+    <!--NavBar Section-->
+    <nav class="navbar navbar-expand-lg  navbar-dark fixed-top">
+        <div class="container" style="max-width: var(--maxWidth);">
+            <div class="me-2" style="font-size: 14px;">
+                <a href="#home" onclick="setActive(this)" class="text-white fw-bold nav-link active"><i class="fa-solid fa-code"></i></a>
+                &nbsp;
+                <span class="d-none d-sm-none d-md-none d-lg-inline"><b>Hossam AL-Zoubi</b></span>
+                <span class="d-none d-sm-none d-md-inline d-lg-none"><b>Hossam</b></span>
+                
+            </div>
+          
+            <span class="text-white d-inline d-sm-inline d-md-none ">
+               <b> Hossam AL-Zoubi</b>
+            </span>
+
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" style="margin-right: -15px;">
+            <span class="navbar-toggler-icon"></span>
+           </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#skills" onclick="setActive(this)"  class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" onclick="setActive(this)"  class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" onclick="setActive(this)"  class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header Section-->
+    <header id="home" class="container text-center text-sm-center text-md-start d-flex align-items-center vh-100" style="max-width: var(--maxWidth);">
+        <div class="row gx-5">
+            <div class="col-12 col-sm-12 col-md-8">
+                    <h6 class="f-main-color fw-bold">HELLO!</h6>
+                    <h1  class="fw-bold">I'm <span style="color: var(--mainColor);">Hossam AL-Zoubi</span></h1>
+                    <h1  class="fw-bold">I'm a <span style="color:var(--mainColor);">Full-Stack</span> Developer</h1>
+                    <p class="f-secondary-color fs-5">My name is Hossam Al-Zoubi from Jordan. I study at Al al-Bayt University, majoring in Computer Information Systems.</p>
+                    <div>
+                       <a href="https://github.com/hossamalzoubi" target="_blank"><i class="fa-brands fa-github fs-5"></i></a>
+                       &nbsp;
+                       <a href="https://github.com/hossamalzoubi" target="_blank"><i class="fa-brands fa-linkedin fs-5"></i></a>
+                       &nbsp;
+                       <a href="https://www.instagram.com/hossam.zou" target="_blank"><i class="fa-brands fa-square-instagram fs-5"></i></a>
+                       &nbsp;
+                       <a href="https://web.facebook.com/hossam.alzoubi.106/" target="_blank"><i class="fa-brands fa-facebook fs-5"></i></a>
+                       &nbsp;
+                       <a href="" target="_blank"><i class="fa-brands fa-hackerrank fs-5"></i></a>
+                    </div>
+               
+            </div>
+            
+
+            <div class="col-12 col-sm-12 col-md-4 my-auto ">
+                <div id="carouselExampleControls" class="carousel slide container text-center" data-bs-ride="carousel" style="margin-top: 45px; max-width: 200px;">
+        
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/html.png"  alt="html image" width="80%">
+                            <h5 class="mt-2">HTML</h5>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/css-3.png"  alt="css image" width="80%" >
+                            <h5 class="mt-2">CSS</h5>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/javascript.png"  alt="css image" width="80%" >
+                            <h5 class="mt-2">JavaScript</h5>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/bootstrap-5-logo-icon.png"  alt="css image" width="80%" >
+                            <h5 class="mt-2">Bootstrap</h5>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/c-sharp.png"  alt="css image" width="80%" >
+                            <h5 class="mt-2">C#</h5>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/microsoft-sql-server4529.jpg"  alt="css image" width="80%" >
+                            <h5 class="mt-2">SQL Server</h5>
+                        </div>
+                    </div>
+            
+                  
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      </button>
+                </div>
+            
+            </div>
+        </div>
+        
+    </header> 
+   
+
+    <!--Skills Section-->
+    <div id="skills" class="container d-flex align-items-center vh-100" style="max-width: var(--maxWidth);">
+        <div class="row">
+            <h1 class="mb-3 fw-bold text-center">My Skills</h1>
+            <p class="text-center mb-4 fs-5">Don't look back, you're not going that way</p>
+            <div class="col-12 col-sm-6 mt-3 fw-semibold" >
+                <span class="fs-5">HTML</span>
+                <span class="fs-5 float-end">80%</span>
+                <div class="progress rounded mb-3 mt-2" style="height: var(--heightProgress)">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <span class="fs-5">CSS</span>
+                <span class="fs-5 float-end">80%</span>
+                <div class="progress rounded mb-3 mt-2" style="height:var(--heightProgress)">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <span class="fs-5">JavaScript</span>
+                <span class="fs-5 float-end">70%</span>
+                <div class="progress rounded mb-3 mt-2" style="height: var(--heightProgress)">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+            </div>
+            <div class="col-12 col-sm-6 mt-3 fw-semibold" >
+                <span class="fs-5">Bootstrap</span>
+                <span class="fs-5 float-end">90%</span>
+                <div class="progress rounded mb-3 mt-2" style="height: var(--heightProgress)">
+                    <div class="progress-bar " role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <span class="fs-5">SQL</span>
+                <span class="fs-5 float-end">85%</span>
+                <div class="progress rounded mb-3 mt-2" style="height: var(--heightProgress)">
+                    <div class="progress-bar " role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <span class="fs-5">C#</span>
+                <span class="fs-5 float-end">70%</span>
+                <div class="progress rounded mb-3 mt-2" style="height: var(--heightProgress)">
+                    <div class="progress-bar " role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+
+    <!--My Project Section-->
+    <div id="projects" class="container my-4" style="max-width: var(--maxWidth);">
+        <div class="row py-5 gy-3">
+            <h1 class="mb-3 fw-bold text-center">My Projects</h1>
+            <p class="text-center mb-4 fs-5">The mind is everything. What you think you become.</p>
+            
+            <div class="col-12 col-sm-6">
+                <a href="pages/Band Template/index.html" target="_blank">
+                    <img src="images/band.png" width="100%" alt="band template" class="project-img-hover">
+                </a>
+                <a href="https://github.com/hossamalzoubi/band_temp.git" target="_blank" class="button text-decoration-none text-black">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="text fs-6">Code</span>
+                  </a>
+
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <a href="pages/Architect Template/index.html" target="_blank">
+                    <img src="images/architecture.png" width="100%" alt="architect template" class="project-img-hover">
+                </a>
+                <a href="https://github.com/hossamalzoubi/architect_template.git" target="_blank" class="button text-decoration-none text-black">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="text fs-6">Code</span>
+                  </a>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <a href="pages/Parallax Template/index.html" target="_blank">
+                    <img src="images/parallel.png" width="100%" alt="parallel template" class="project-img-hover">
+                </a>
+                <a href="https://github.com/hossamalzoubi/professional_photographer_template.git" target="_blank" class="button text-decoration-none text-black">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="text fs-6">Code</span>
+                  </a>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <a href="pages/Food Blog Template/index.html" target="_blank">
+                    <img src="images/food.png" width="100%" alt="food template" class="project-img-hover">
+                </a>
+                <a href="https://github.com/hossamalzoubi/food_blog_template.git" target="_blank" class="button text-decoration-none text-black">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="text fs-6">Code</span>
+                  </a>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <a href="pages/Blog Template/index.html" target="_blank">
+                    <img src="images/blog.png" width="100%" alt="blog template" class="project-img-hover">
+                </a>
+                <a href="https://github.com/hossamalzoubi/blog_template.git" target="_blank" class="button text-decoration-none text-black">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="text fs-6">Code</span>
+                  </a>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <a href="pages/Gourmet Catering Template/index.html" target="_blank">
+                    <img src="images/gourmet.png" width="100%" alt="gourmet template" class="project-img-hover">
+                </a>
+                <a href="https://github.com/hossamalzoubi/gourmet_catering_template.git" target="_blank" class="button text-decoration-none text-black">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="text fs-6">Code</span>
+                  </a>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <a href="pages/Fashion Blog Template/index.html" target="_blank">
+                    <img src="images/fashion.png" width="100%" alt="fashion blog template" class="project-img-hover">
+                </a>
+                <a href="https://github.com/hossamalzoubi/fashion_template.git" target="_blank" class="button text-decoration-none text-black">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="text fs-6">Code</span>
+                  </a>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <a href="pages/Weather/index.html" target="_blank">
+                    <img src="images/weather.png" width="100%" alt="weather app" class="project-img-hover">
+                </a>
+                <a href="https://github.com/hossamalzoubi/weather_app.git" target="_blank" class="button text-decoration-none text-black">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="text fs-6">Code</span>
+                  </a>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!--Contact me-->
+    <footer id="contact" class="container" style="max-width: 1000px;">
+        <div class="row gy-1 justify-content-center">
+            <h1 class="mb-3 fw-bold text-center">Contact Me</h1>
+            <p class="text-center mb-4 fs-5">Somehow,everyone of us is Beautiful</p>
+            <div class="col-12 col-sm-6 col-md-4 text-center">
+                <div class="d-flex align-items-center justify-content-center rounded-circle ci mx-auto">
+                    <i class="fa-solid fa-location-dot icon"></i>
+                </div>
+                <h4 style="line-height: 2;">Address</h4>
+                <p class="text-white">Irbid/Alramtha <br> Wasfi At-Tal St. 775 </p>
+            </div>
+    
+            <div class="col-12 col-sm-6 col-md-4 text-center">
+                <div class="d-flex align-items-center justify-content-center rounded-circle ci mx-auto">
+                    <i class="fa-solid fa-phone icon"></i>
+                </div>
+                <h4 style="line-height: 2;">Contact Number</h4>
+                <p class="text-white">+962 789455571</p>
+            </div>
+    
+            <div class="col-12 col-sm-6 col-md-4 text-center">
+                <div class="d-flex align-items-center justify-content-center rounded-circle ci mx-auto">
+                    <i class="fa-solid fa-paper-plane icon"></i>
+                </div>
+                <h4 style="line-height: 2;">Email Address</h4>
+                <p class="text-white">Hossam@yahoo.com</p>
+            </div>
+            <p class="text-center marg">Copyright ©2024 All rights reserved | This template is made with
+                <i class="fa-solid fa-heart" style="color: #b3b3b3;"></i> Hossam Alzoubi
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/setactive.js"></script>
+</body>
+</html>
+
+
+
+<!-- My name is hossam alzoubi from jordan irbid -->

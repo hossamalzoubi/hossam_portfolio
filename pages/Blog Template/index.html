@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Blog</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    :root{
+      --maxWidth: 1400px
+    }
+    body{
+      font-family: "Raleway", sans-serif;
+    }
+    .btn-white{
+      padding: 12px 24px;
+      border: 1px solid black;
+      border-radius: 0;
+      --bs-btn-hover-color: black;
+      --bs-btn-hover-bg: #ccc;
+      --bs-btn-hover-border-color: #ccc;    
+      font-weight: bold;
+    }
+    .float-end{
+      padding: 12px 24px;
+    }
+    .li-hover:hover{
+      background-color: #ccc;
+    }
+    .f-hover:hover{
+      color:aquamarine !important;
+      cursor: pointer;
+    }
+    .bg-secondary{
+      color: black;
+      background-color:#f1f1f1 !important;
+    }
+    .card{
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+      border-radius: 0;
+    }
+
+  </style>
+</head>
+<body class="bg-light">
+
+  <div class="container" style="max-width:var(--maxWidth)">
+  
+    <!-- Header -->
+    <header class="text-center py-4"> 
+      <h1><b>MY BLOG</b></h1>
+      <p>Welcome to the blog of <span class="badge bg-black rounded-0">unknown</span></p>
+    </header>
+  
+    <!-- Grid -->
+    <div class="row">
+      <div class="col-lg-8 col-sm-12">
+        
+        <!-- Blog entry -->
+        <div class="card mb-4">
+          <img src="images/woods.jpg"  alt="Nature">
+          <div class="card-body">
+            <h3 class="card-title"><b>TITLE HEADING</b></h3>
+            <h5 class="card-subtitle mt-2 text-muted">Title description, <span class="text-opacity-50">April 7, 2014</span></h5>
+            <p class="mt-4">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+  
+            <button class="btn btn-white"b>READ MORE »</b></button>
+            <p class="d-none d-sm-block mb-0 float-end "><b>Comments </b><span class="badge bg-black rounded-3">0</span></p>
+          </div>
+        </div>
+  
+        <!-- Blog entry -->
+        <div class="card mb-4">
+          <img src="images/bridge.jpg"  alt="Norway">
+          <div class="card-body">
+            <h3 class="card-title"><b>BLOG ENTRY</b></h3>
+            <h5 class="card-subtitle mt-2 text-muted">Title description, <span class="text-opacity-50">April 2, 2014</span></h5>
+            <p class="mt-4">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            
+            <button class="btn btn-white"b>READ MORE »</b></button>
+            <p class="d-none d-sm-block mb-0 float-end "><b>Comments </b><span class="badge bg-black rounded-3">2</span></p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Introduction menu -->
+      <div class="col-lg-4">
+        <!-- About Card -->
+        <div class="card mb-4">
+          <img src="images/avatar_g.jpg" alt="Avatar">
+          <div class="card-body">
+            <h4><b>My Name</b></h4>
+            <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+          </div>
+        </div>
+        
+        <!-- Posts -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <h4>Popular Posts</h4>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item li-hover">
+              <img src="images/workshop.jpg" alt="Image" class="float-start me-2" style="width:50px;">
+              <span class="fw-bold">Lorem</span><br>
+              <small>Sed mattis nunc</small>
+            </li>
+            <li class="list-group-item li-hover">
+              <img src="images/gondol.jpg" alt="Image" class="float-start me-2" style="width:50px;">
+              <span class="fw-bold">Ipsum</span><br>
+              <small>Praes tinci sed</small>
+            </li>
+            <li class="list-group-item li-hover">
+              <img src="images/skies.jpg" alt="Image" class="float-start me-2" style="width:50px;">
+              <span class="fw-bold">Dorum</span><br>
+              <small>Ultricies congue</small>
+            </li>
+            <li class="list-group-item d-none d-md-block li-hover">
+              <img src="images/rock.jpg" alt="Image" class="float-start me-2" style="width:50px;">
+              <span class="fw-bold">Mingsum</span><br>
+              <small>Lorem ipsum dipsum</small>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Labels / tags -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <h4>Tags</h4>
+          </div>
+          <div class="card-body">
+            <p>
+              <span class="badge bg-dark me-1 rounded-0 mb-1">Travel</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">New York</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">London</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">IKEA</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">NORWAY</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">DIY</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">Ideas</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">Baby</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">Family</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">News</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">Clothing</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">Shopping</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">Sports</span>
+              <span class="badge bg-secondary rounded-0 me-1 mb-1">Games</span>
+            </p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="bg-black text-white py-5 px-3">
+    <button class="btn btn-secondary disabled me-1 rounded-0">Previous</button>
+    <button class="btn btn-secondary rounded-0">Next »</button>
+    <p class="mt-4">Powered by <a class="text-white text-decoration-none f-hover">Hossam</a></p>
+  </footer>
+  
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+
+
+

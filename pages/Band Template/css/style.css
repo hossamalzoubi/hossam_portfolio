@@ -1,0 +1,106 @@
+:root{
+    --maxWidth: 880px;
+    --main-font: "Lato", sans-serif ;
+    --secondary-font: "Segoe UI", Arial, sans-serif;
+
+}
+.card,.form-control,.btn{
+    border-radius: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--secondary-font);
+}
+i,span,p,a{
+    font-family: var(--main-font);
+}
+.nav-link{
+    color:white
+}
+.navbar-toggler-icon{
+    font-size: 15px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgb(255, 255, 255)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+} 
+.footer-icon{
+    color:gray; font-size: 24px;
+}
+.link-hover:hover{
+    background-color: #ccc;
+    color:black !important
+}
+.search-hover:hover{
+    background-color: red;
+}
+.navbar-nav .py-1{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+.navbar-nav{
+    --bs-nav-link-hover-color: black;
+}
+.navbar-toggler{
+    padding: 10px 24px; margin-left: -15px;
+    border: none;
+    border-radius: 0;
+}
+.navbar-toggler:hover{
+    background-color: red;
+    padding: 10px 24px; margin-left: -15px;
+    border: none;
+    border-radius: 0;
+}
+.navbar{
+    --bs-navbar-padding-y: -0.5rem;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-left: -17px;
+}
+
+.custom-input:focus {
+ border: 2px solid black;
+ box-shadow: none;
+}
+.btn-dark{
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #ccc;
+    --bs-btn-hover-border-color: #ccc;        
+}
+.card img:hover{
+    filter: contrast(80%);
+}
+.error-message{
+    color:red
+}
+.bg-modal-header{
+    color:white;
+    background-color: red;
+    height: 120px;
+}
+.bg-modal-pay{
+    background-color: black;
+    color:white
+}
+.bg-modal-pay:hover{
+    background-color: #ccc;
+}
+.btn-close:hover{
+    background-color: #ccc;
+    opacity: 1;
+}
+.btn-close{
+   background-color: white;
+   opacity: 1;
+   border-radius: 0;
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   --bs-btn-close-focus-shadow:0;
+
+}
+.btn-danger:hover{
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #ccc;
+    --bs-btn-hover-border-color: #ccc;   
+
+}
+

@@ -1,0 +1,91 @@
+:root{
+    --maxWidth: 1000px;
+    --mainColor: #ffbd39;
+    --secondaryColor: #999;
+    --heightProgress: 15px;
+    --headingSize:3em;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color:white;
+}
+.ci{
+    width: 100px;
+    height: 100px;
+    background-color: #1a1a1a;
+}
+.icon{
+    color: var(--mainColor);
+    font-size: 20px;
+}
+.marg{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.progress{
+    background-color: #1a1a1a;;
+}
+.progress-bar{
+    background-color: var(--mainColor);
+}
+.f-main-color{
+    color: var(--mainColor);
+}
+.f-secondary-color{
+    color: var(--secondaryColor);
+}
+.fa-brands{
+    color: var(--secondaryColor);
+}
+.navbar-toggler-icon{
+    font-size: 15px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgb(255, 255, 255)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+} 
+
+.navbar-toggler{
+   border: none;
+   border-radius: 0;
+   color:var(--mainColor);
+   margin-right: -10px !important;
+} 
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 5px;
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    width: 50%;
+    margin:20px auto;
+}
+.button .text {
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+    
+}
+.button:hover {
+    background-color: white;
+}
+.button:hover .text {
+    color: black;
+}
+.fa-brands:hover{
+    color:white
+}
+.project-img-hover:hover{
+    opacity: 0.5;
+}
+.nav-link.active{
+    color: var(--mainColor) !important;
+    border-bottom: 2px solid var(--mainColor);
+}
+.nav-link{
+    display: inline-block !important;
+}
